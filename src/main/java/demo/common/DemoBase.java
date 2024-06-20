@@ -1,15 +1,17 @@
 package demo.common;
-import oimo.collision.geometry.*;
 import oimo.common.DebugDraw;
 import oimo.common.Mat3;
 import oimo.common.Mat4;
 import oimo.common.MathUtil;
 import oimo.common.Quat;
 import oimo.common.Vec3;
-import oimo.dynamics.*;
+import oimo.dynamics.World;
 import oimo.dynamics.callback.RayCastClosest;
-import oimo.dynamics.constraint.joint.*;
-import oimo.dynamics.rigidbody.*;
+import oimo.dynamics.constraint.joint.SphericalJoint;
+import oimo.dynamics.constraint.joint.SphericalJointConfig;
+import oimo.dynamics.rigidbody.RigidBody;
+import oimo.dynamics.rigidbody.RigidBodyConfig;
+import oimo.dynamics.rigidbody.RigidBodyType;
 
 /**
  * Base class of demos.

@@ -1,8 +1,13 @@
 package demo.demoes;
-import demo.common.*;
-import oimo.common.*;
-import oimo.dynamics.*;
-import oimo.dynamics.rigidbody.*;
+import demo.common.DemoBase;
+import demo.common.DemoRenderer;
+import demo.common.OimoUtil;
+import demo.common.UserInput;
+import demo.common.ViewInfo;
+import oimo.common.MathUtil;
+import oimo.common.Vec3;
+import oimo.dynamics.World;
+import oimo.dynamics.rigidbody.Shape;
 
 /**
  * Collision filtering demo

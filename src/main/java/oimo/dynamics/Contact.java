@@ -1,10 +1,14 @@
 package oimo.dynamics;
-import oimo.collision.narrowphase.*;
-import oimo.collision.narrowphase.detector.*;
+import oimo.collision.narrowphase.DetectorResult;
+import oimo.collision.narrowphase.detector.CachedDetectorData;
+import oimo.collision.narrowphase.detector.Detector;
 import oimo.common.Setting;
 import oimo.dynamics.callback.ContactCallback;
-import oimo.dynamics.constraint.contact.*;
-import oimo.dynamics.rigidbody.*;
+import oimo.dynamics.constraint.contact.ContactConstraint;
+import oimo.dynamics.constraint.contact.Manifold;
+import oimo.dynamics.constraint.contact.ManifoldUpdater;
+import oimo.dynamics.rigidbody.RigidBody;
+import oimo.dynamics.rigidbody.Shape;
 
 /**
  * A contact is a cached pair of overlapping shapes in the physics world. contacts

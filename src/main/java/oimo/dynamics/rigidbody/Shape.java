@@ -1,11 +1,12 @@
 package oimo.dynamics.rigidbody;
-import oimo.collision.*;
-import oimo.collision.broadphase.*;
-import oimo.collision.geometry.*;
+
+import oimo.collision.broadphase.Proxy;
+import oimo.collision.geometry.Aabb;
+import oimo.collision.geometry.Geometry;
+import oimo.common.M;
 import oimo.common.Transform;
 import oimo.common.Vec3;
 import oimo.dynamics.callback.ContactCallback;
-import oimo.common.M;
 
 /**
  * A shape is a component of a rigid body. It attaches a collision geometry to the parent rigid body

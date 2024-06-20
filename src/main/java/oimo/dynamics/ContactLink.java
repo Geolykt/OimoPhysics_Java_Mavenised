@@ -1,6 +1,5 @@
 package oimo.dynamics;
 import oimo.dynamics.rigidbody.RigidBody;
-import oimo.dynamics.rigidbody.*;
 
 /**
  * A contact link is used to build a constraint graph for clustering rigid bodies.

@@ -2,7 +2,7 @@ package oimo.dynamics.constraint.joint;
 
 import oimo.common.Setting;
 import oimo.common.Vec3;
-import oimo.dynamics.rigidbody.*;
+import oimo.dynamics.rigidbody.RigidBody;
 
 /**
  * A joint configuration is used for constructions of various joints. An

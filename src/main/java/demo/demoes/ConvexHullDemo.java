@@ -1,9 +1,16 @@
 package demo.demoes;
-import demo.common.*;
-import oimo.collision.geometry.*;
-import oimo.common.*;
-import oimo.dynamics.*;
-import oimo.dynamics.rigidbody.*;
+import demo.common.DemoBase;
+import demo.common.DemoRenderer;
+import demo.common.OimoUtil;
+import demo.common.UserInput;
+import demo.common.ViewInfo;
+import oimo.collision.geometry.ConvexHullGeometry;
+import oimo.common.Vec3;
+import oimo.dynamics.World;
+import oimo.dynamics.rigidbody.RigidBody;
+import oimo.dynamics.rigidbody.RigidBodyConfig;
+import oimo.dynamics.rigidbody.Shape;
+import oimo.dynamics.rigidbody.ShapeConfig;
 
 /**
  * Convex hull demo

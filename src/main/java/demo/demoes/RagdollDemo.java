@@ -1,17 +1,12 @@
 package demo.demoes;
-import demo.common.DemoRenderer;
 import demo.common.DemoBase;
+import demo.common.DemoRenderer;
 import demo.common.OimoUtil;
 import demo.common.UserInput;
 import demo.common.ViewInfo;
-import oimo.collision.geometry.*;
-import oimo.common.Mat3;
-import oimo.common.MathUtil;
 import oimo.common.Setting;
 import oimo.common.Vec3;
-import oimo.dynamics.*;
-import oimo.dynamics.constraint.joint.*;
-import oimo.dynamics.rigidbody.*;
+import oimo.dynamics.World;
 
 /**
  * Ragdoll demo

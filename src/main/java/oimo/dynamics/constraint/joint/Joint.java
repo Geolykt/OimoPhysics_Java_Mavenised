@@ -1,16 +1,21 @@
 package oimo.dynamics.constraint.joint;
-import oimo.common.*;
-import oimo.dynamics.*;
-import oimo.dynamics.constraint.*;
-import oimo.dynamics.constraint.info.joint.*;
-import oimo.dynamics.constraint.solver.*;
-import oimo.dynamics.constraint.solver.direct.*;
-import oimo.dynamics.constraint.solver.pgs.*;
-import oimo.dynamics.rigidbody.*;
-import oimo.common.Mat3;
-import oimo.common.Quat;
-import oimo.common.Vec3;
 import oimo.common.M;
+import oimo.common.Mat3;
+import oimo.common.MathUtil;
+import oimo.common.Quat;
+import oimo.common.Setting;
+import oimo.common.Transform;
+import oimo.common.Vec3;
+import oimo.dynamics.TimeStep;
+import oimo.dynamics.World;
+import oimo.dynamics.constraint.ConstraintSolver;
+import oimo.dynamics.constraint.PositionCorrectionAlgorithm;
+import oimo.dynamics.constraint.info.joint.JointSolverInfo;
+import oimo.dynamics.constraint.info.joint.JointSolverInfoRow;
+import oimo.dynamics.constraint.solver.ConstraintSolverType;
+import oimo.dynamics.constraint.solver.direct.DirectJointConstraintSolver;
+import oimo.dynamics.constraint.solver.pgs.PgsJointConstraintSolver;
+import oimo.dynamics.rigidbody.RigidBody;
 
 /**
  * The base class of joints. Joints are used to connect two rigid bodies

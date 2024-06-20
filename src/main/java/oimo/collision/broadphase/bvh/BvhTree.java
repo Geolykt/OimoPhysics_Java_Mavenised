@@ -1,7 +1,6 @@
 package oimo.collision.broadphase.bvh;
 
 import oimo.common.M;
-import oimo.dynamics.rigidbody.Shape;
 
 /**
  * Internal class.

@@ -1,11 +1,13 @@
 package oimo.collision.narrowphase.detector;
 
-import oimo.collision.geometry.*;
-import oimo.collision.narrowphase.*;
+import oimo.collision.geometry.BoxGeometry;
+import oimo.collision.geometry.Geometry;
+import oimo.collision.geometry.SphereGeometry;
+import oimo.collision.narrowphase.DetectorResult;
+import oimo.common.M;
 import oimo.common.MathUtil;
 import oimo.common.Transform;
 import oimo.common.Vec3;
-import oimo.common.M;
 
 /**
  * Sphere vs Box collision detector.

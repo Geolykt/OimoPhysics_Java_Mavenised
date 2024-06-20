@@ -2,11 +2,6 @@ package demo.common;
 import oimo.common.Mat4;
 import oimo.common.Vec3;
 import oimo.dynamics.World;
-import oimo.collision.broadphase.bvh.*;
-import oimo.dynamics.*;
-import oimo.dynamics.constraint.contact.*;
-import oimo.dynamics.constraint.joint.*;
-import oimo.dynamics.rigidbody.*;
 
 /**
  * DemoRenderer renders a demo world using an instance of IDemoGraphics.

@@ -1,11 +1,19 @@
 package oimo.dynamics.constraint.contact;
-import oimo.common.*;
+import oimo.common.M;
+import oimo.common.Mat3;
+import oimo.common.MathUtil;
+import oimo.common.Setting;
+import oimo.common.Transform;
+import oimo.common.Vec3;
 import oimo.dynamics.TimeStep;
-import oimo.dynamics.constraint.*;
-import oimo.dynamics.constraint.info.*;
-import oimo.dynamics.constraint.info.contact.*;
-import oimo.dynamics.constraint.solver.pgs.*;
-import oimo.dynamics.rigidbody.*;
+import oimo.dynamics.constraint.ConstraintSolver;
+import oimo.dynamics.constraint.PositionCorrectionAlgorithm;
+import oimo.dynamics.constraint.info.JacobianRow;
+import oimo.dynamics.constraint.info.contact.ContactSolverInfo;
+import oimo.dynamics.constraint.info.contact.ContactSolverInfoRow;
+import oimo.dynamics.constraint.solver.pgs.PgsContactConstraintSolver;
+import oimo.dynamics.rigidbody.RigidBody;
+import oimo.dynamics.rigidbody.Shape;
 
 /**
  * A contact constraint provides collision information for a contact constraint solver.

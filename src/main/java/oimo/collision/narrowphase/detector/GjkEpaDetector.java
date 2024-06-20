@@ -1,8 +1,13 @@
 package oimo.collision.narrowphase.detector;
-import oimo.collision.geometry.*;
-import oimo.collision.narrowphase.*;
-import oimo.collision.narrowphase.detector.gjkepa.*;
-import oimo.common.*;
+import oimo.collision.geometry.ConvexGeometry;
+import oimo.collision.geometry.Geometry;
+import oimo.collision.narrowphase.DetectorResult;
+import oimo.collision.narrowphase.detector.gjkepa.GjkEpa;
+import oimo.collision.narrowphase.detector.gjkepa.GjkEpaResultState;
+import oimo.common.M;
+import oimo.common.Setting;
+import oimo.common.Transform;
+import oimo.common.Vec3;
 
 /**
  * General convex collision detector using GJK/EPA

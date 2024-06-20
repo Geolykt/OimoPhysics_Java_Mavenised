@@ -1,14 +1,17 @@
 package demo.demoes;
-import demo.common.OimoUtil;
-import oimo.collision.geometry.*;
-import oimo.common.*;
-import oimo.dynamics.*;
-import oimo.dynamics.rigidbody.*;
-import demo.common.Control;
-import demo.common.DemoRenderer;
 import demo.common.DemoBase;
+import demo.common.DemoRenderer;
+import demo.common.OimoUtil;
 import demo.common.UserInput;
 import demo.common.ViewInfo;
+import oimo.collision.geometry.BoxGeometry;
+import oimo.common.Mat3;
+import oimo.common.MathUtil;
+import oimo.common.Vec3;
+import oimo.dynamics.World;
+import oimo.dynamics.rigidbody.RigidBody;
+import oimo.dynamics.rigidbody.Shape;
+import oimo.dynamics.rigidbody.ShapeConfig;
 
 /**
  * Variable time step demo

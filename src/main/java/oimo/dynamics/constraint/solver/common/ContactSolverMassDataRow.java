@@ -1,5 +1,4 @@
 package oimo.dynamics.constraint.solver.common;
-import oimo.common.M;
 import oimo.common.Vec3;
 
 /**

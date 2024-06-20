@@ -1,6 +1,5 @@
 package oimo.dynamics.constraint.contact;
 import oimo.common.Vec3;
-import oimo.dynamics.constraint.contact.ContactImpulse;
 
 /**
  * Internal class.

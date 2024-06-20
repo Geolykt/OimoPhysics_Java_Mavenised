@@ -27,7 +27,7 @@ import oimo.common.Performance;
 import oimo.common.Quat;
 import oimo.common.Setting;
 import oimo.common.Vec3;
-import oimo.dynamics.*;
+import oimo.dynamics.World;
 
 /**
  * OimoPhysics demo box.

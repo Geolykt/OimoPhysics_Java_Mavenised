@@ -1,7 +1,6 @@
 package oimo.dynamics.constraint.joint;
 
 import oimo.dynamics.rigidbody.RigidBody;
-import oimo.dynamics.rigidbody.*;
 
 /**
  * A joint link is used to build a constraint graph for clustering rigid bodies.

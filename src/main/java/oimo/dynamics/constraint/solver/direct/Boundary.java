@@ -1,6 +1,5 @@
 package oimo.dynamics.constraint.solver.direct;
 import oimo.common.Setting;
-import oimo.common.Vec3;
 import oimo.dynamics.constraint.info.joint.JointSolverInfo;
 import oimo.dynamics.constraint.info.joint.JointSolverInfoRow;
 

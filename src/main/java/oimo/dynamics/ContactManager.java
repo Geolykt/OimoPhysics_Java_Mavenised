@@ -1,12 +1,15 @@
 package oimo.dynamics;
-import oimo.collision.broadphase.*;
-import oimo.collision.geometry.*;
-import oimo.collision.narrowphase.*;
+import oimo.collision.broadphase.BroadPhase;
+import oimo.collision.broadphase.ProxyPair;
+import oimo.collision.geometry.Aabb;
+import oimo.collision.narrowphase.CollisionMatrix;
 import oimo.collision.narrowphase.detector.Detector;
 import oimo.common.M;
 import oimo.dynamics.constraint.contact.ContactConstraint;
-import oimo.dynamics.constraint.joint.*;
-import oimo.dynamics.rigidbody.*;
+import oimo.dynamics.constraint.joint.JointLink;
+import oimo.dynamics.rigidbody.RigidBody;
+import oimo.dynamics.rigidbody.RigidBodyType;
+import oimo.dynamics.rigidbody.Shape;
 
 /**
  * The manager of the contacts in the physics world. A contact of two

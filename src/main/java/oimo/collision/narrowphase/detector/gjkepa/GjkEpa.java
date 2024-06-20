@@ -1,10 +1,9 @@
 package oimo.collision.narrowphase.detector.gjkepa;
 
-import oimo.collision.geometry.*;
-import oimo.collision.narrowphase.detector.*;
+import oimo.collision.geometry.ConvexGeometry;
+import oimo.collision.geometry.RayCastHit;
+import oimo.collision.narrowphase.detector.CachedDetectorData;
 import oimo.common.M;
-import oimo.common.Mat3;
-import oimo.common.MathUtil;
 import oimo.common.Transform;
 import oimo.common.Vec3;
 

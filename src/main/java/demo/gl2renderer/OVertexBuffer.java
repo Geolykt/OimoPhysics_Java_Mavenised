@@ -2,8 +2,8 @@ package demo.gl2renderer;
 
 import java.nio.FloatBuffer;
 
-import com.jogamp.opengl.GL2;
 import com.jogamp.common.nio.Buffers;
+import com.jogamp.opengl.GL2;
 
 import oimo.common.M;
 

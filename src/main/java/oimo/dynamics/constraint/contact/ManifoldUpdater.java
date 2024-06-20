@@ -1,10 +1,10 @@
 package oimo.dynamics.constraint.contact;
-import oimo.collision.narrowphase.*;
+import oimo.collision.narrowphase.DetectorResult;
+import oimo.collision.narrowphase.DetectorResultPoint;
+import oimo.common.M;
 import oimo.common.Setting;
 import oimo.common.Transform;
 import oimo.common.Vec3;
-import oimo.dynamics.rigidbody.*;
-import oimo.common.M;
 
 /**
  * Internal class

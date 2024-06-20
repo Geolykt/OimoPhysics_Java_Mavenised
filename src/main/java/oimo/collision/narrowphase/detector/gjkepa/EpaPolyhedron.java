@@ -2,7 +2,6 @@ package oimo.collision.narrowphase.detector.gjkepa;
 import oimo.common.MathUtil;
 import oimo.common.Setting;
 import oimo.common.Vec3;
-import oimo.common.M;
 
 /**
  * Internal class.

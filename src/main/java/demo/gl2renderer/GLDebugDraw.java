@@ -35,7 +35,7 @@ public class GLDebugDraw extends DebugDraw implements IDemoGraphics {
 	}
 	
 	void setColor(Vec3 color){
-		if(color!=null & color!=this.color) {
+		if(color!=null && color!=this.color) {
 			gl.glColor3d(color.x, color.y, color.z);
 			this.color=color;
 		}

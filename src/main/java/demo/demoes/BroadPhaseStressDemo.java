@@ -1,13 +1,23 @@
 package demo.demoes;
 import java.util.function.Function;
 
-import demo.common.*;
+import demo.common.Control;
+import demo.common.DemoBase;
+import demo.common.DemoRenderer;
+import demo.common.UserInput;
+import demo.common.ViewInfo;
 import oimo.collision.broadphase.BroadPhase;
-import oimo.collision.broadphase.bvh.*;
-import oimo.collision.geometry.*;
-import oimo.common.*;
-import oimo.dynamics.*;
-import oimo.dynamics.rigidbody.*;
+import oimo.collision.broadphase.bvh.BvhBroadPhase;
+import oimo.collision.geometry.BoxGeometry;
+import oimo.collision.geometry.Geometry;
+import oimo.collision.geometry.SphereGeometry;
+import oimo.common.MathUtil;
+import oimo.common.Vec3;
+import oimo.dynamics.World;
+import oimo.dynamics.rigidbody.RigidBody;
+import oimo.dynamics.rigidbody.RigidBodyConfig;
+import oimo.dynamics.rigidbody.Shape;
+import oimo.dynamics.rigidbody.ShapeConfig;
 
 /**
  * Broad-phase stress demo

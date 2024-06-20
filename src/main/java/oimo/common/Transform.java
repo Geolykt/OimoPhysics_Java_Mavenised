@@ -39,6 +39,7 @@ public class Transform {
 	public void getPositionTo(Vec3 position) {
 		if(position==null) {
 			System.out.println(this);
+			throw new NullPointerException();
 		}
 		position.copyFrom(_position);
 	}

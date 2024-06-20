@@ -4,7 +4,6 @@ import java.nio.FloatBuffer;
 
 import com.jogamp.common.nio.Buffers;
 import com.jogamp.opengl.GL2;
-import com.jogamp.opengl.glu.GLU;
 
 import demo.common.IDemoGraphics;
 import oimo.common.DebugDraw;

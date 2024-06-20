@@ -1,7 +1,8 @@
 package oimo.collision.narrowphase.detector;
 
-import oimo.collision.geometry.*;
-import oimo.collision.narrowphase.*;
+import oimo.collision.geometry.CapsuleGeometry;
+import oimo.collision.geometry.Geometry;
+import oimo.collision.narrowphase.DetectorResult;
 import oimo.common.M;
 import oimo.common.MathUtil;
 import oimo.common.Transform;

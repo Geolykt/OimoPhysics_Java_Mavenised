@@ -1,7 +1,13 @@
 package oimo.collision.narrowphase;
 
 import oimo.collision.geometry.GeometryType;
-import oimo.collision.narrowphase.detector.*;
+import oimo.collision.narrowphase.detector.BoxBoxDetector;
+import oimo.collision.narrowphase.detector.CapsuleCapsuleDetector;
+import oimo.collision.narrowphase.detector.Detector;
+import oimo.collision.narrowphase.detector.GjkEpaDetector;
+import oimo.collision.narrowphase.detector.SphereBoxDetector;
+import oimo.collision.narrowphase.detector.SphereCapsuleDetector;
+import oimo.collision.narrowphase.detector.SphereSphereDetector;
 
 /**
  * CollisionMatrix provides corresponding collision detector for a pair of
